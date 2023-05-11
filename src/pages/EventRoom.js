@@ -1,6 +1,7 @@
 import React from "react";
 import Flow from "../components/Flow";
-import Popupform from "../Redux/Aralıkform";
+//import Popupform from "../Redux/Aralıkform";
+import Form from "../Redux/Aralıkform";
 
 function EventRoom() {
   return (
@@ -8,7 +9,7 @@ function EventRoom() {
       <div className="room_container flex flex-col  sm:h-[100vh] sm:bg-[#66666633] ">
         <div className="header_content  sm:text-center w-full">
           <div className="room_header flex sm:flex-col justify-between items-center">
-            <h1 className="font-bold text-4xl px-4">Benim Odam</h1>
+            <h1 className="font-bold text-4xl px-4 ">Benim Odam</h1>
             <p className="text-slate-400 text-sm italic pr-4 sm:hidden">
               Oluşturulma Tarihi: 31/03/2023, 9:23
             </p>
@@ -32,9 +33,8 @@ function EventRoom() {
             <div className="flex flex-col">
               <p className="text-2xl font-bold mb-4 text-center">Düzenle</p>
               <div className="flex flex-col sm:flex-row sm:justify-around">
-                <Popupform className="bg-[#54c776] pt-2 pb-2 pr-10 pl-10 mb-2 sm:mb-0 rounded-md text-white font-bold text-lg ml-1 mr-1 hover:bg-[#41a65f] transition ease-in-out ">
-                  Aralık Ekle
-                </Popupform>
+               <Form>  
+                </Form>
                 <button className="bg-[#e3716d] pt-2 pb-2 pr-10 pl-10 rounded-md text-white font-bold text-lg ml-1 mr-1 hover:bg-[#ad4e4b] transition ease-in-out">
                   Etkinlik Bitişi
                 </button>
