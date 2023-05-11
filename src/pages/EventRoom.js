@@ -28,7 +28,7 @@ function EventRoom() {
           <div className="flex-1">
             <Flow></Flow>
           </div>
-          <div className="room_infos flex flex-col bg-[#e1eafc33] sm:pt-4  flex-2 justify-around	">
+          <div className="room_infos flex flex-col bg-[#e1eafc33] sm:pt-4  flex-1 justify-around	">
             <div className="flex flex-col">
               <p className="text-2xl font-bold mb-4 text-center">Düzenle</p>
               <div className="flex flex-col sm:flex-row sm:justify-around">
